@@ -17,9 +17,6 @@
     "desc": {
       "type": "text"
     },
-    "price": {
-      "type": "decimal"
-    },
     "img": {
       "allowedTypes": [
         "images",
@@ -29,6 +26,9 @@
       ],
       "type": "media",
       "multiple": true
+    },
+    "price": {
+      "type": "decimal"
     },
     "categories": {
       "type": "relation",

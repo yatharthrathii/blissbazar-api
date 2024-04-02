@@ -9,24 +9,23 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-cloud": "4.21.1",
-    "@strapi/plugin-i18n": "4.21.1",
-    "@strapi/plugin-users-permissions": "4.21.1",
-    "@strapi/provider-upload-cloudinary": "^4.21.1",
     "@strapi/strapi": "4.21.1",
+    "@strapi/plugin-users-permissions": "4.21.1",
+    "@strapi/plugin-i18n": "4.21.1",
+    "@strapi/plugin-cloud": "4.21.1",
     "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
-    "stripe": "^14.23.0",
     "styled-components": "5.3.3"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "68c8dcde-646d-4b37-ba8d-30d8d0534fcb"
+    "uuid": "3baa6132-0c07-4686-8e8e-f16aff8e5a47"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
